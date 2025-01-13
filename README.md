@@ -6,29 +6,29 @@ Simple toolset to work with Azure DevOps Wiki
 
 `markdown_server.py` is a script that serves markdown files as HTML over a local web server. It allows you to view and navigate markdown files in your browser.
 
-### Usage
+### Usage for extract_n_copy_images.py
 
 ```bash
 python markdown_server.py --directory "<markdown_files_directory>" --port "<port_number>"
 ```
 
-### Example
+### Example for markdown_server.py
 
 ```bash
 python markdown_server.py --directory "C:\Users\user\Projects\MarkdownFiles" --port 8000
 ```
 
-### Arguments
+### Arguments for markdown_server.py
 
 - `--directory`: Path to the directory containing markdown files to be served.
 - `--port`: Port number on which the server will run.
 
-### Requirements
+### Requirements for markdown_server.py
 
 - Python 3.x
 - Flask
 
-### Installation
+### Installation for markdown_server.py
 
 Clone the repository and navigate to the script directory:
 
